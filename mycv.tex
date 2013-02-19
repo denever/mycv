@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Giuseppe} % Your first name
+\familyname{Martino} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Via Pedretti, 22}{Chiavenna, Italy 23022}
+\mobile{(+039) 348 79 54 785}
+\email{martinogiuseppe@gmail.com}
+\homepage{denever.blogspot.com}{denever.blogspot.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{http://github.com/denever}
+\photo[70pt][0.4pt]{pictures/picture.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%%\quote{"Happiness is real only when shared." - Chris McCandless}
+%%\quote{``When you live in a place for a long time, you start becoming blind  because you don't observe anything more... I travel to don't become blind. `` - Josef Koudelka}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2003/2004 -- 2008/2009}{Masters of Science degree Telecomunications engineering}{Universit\`a ``Mediterranea'' di Reggio Calabria}{Reggio Calabria}{}{}  % Arguments not required can be left empty
+\cventry{2000 -- 2004}{Bachelor of Science degree Telecomunication engineering}{Universit\`a ``Mediterranea'' di Reggio Calabria}{Reggio Calabria}{}{}
+
+%% \section{Masters Thesis}
+
+%% \cvitem{Title}{\emph{Adaptative multibearer data transfer for a touristic totem in Florence}}
+%% \cvitem{Supervisors}{Professor Domenico Ursino \& Christopher Gabriel as company advisor}
+%% \cvitem{Description}{This thesis describes the actually development of a always best connected software on a linux-based touristic totem.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2011--present time}{Freelance WebDeveloper}{Self-Employed}{Florence, Italy}{}{
+Developed some web applications django based.
+Detailed achievements:
+\begin{itemize}
+\item Django Python Web Framework;
+\item Django Web Server Deployment;
+\item Twitter Bootstrap.
+\item Javascript;
+\item JQuery;
+\item HTML5
+\end{itemize}}
+
+\cventry{September 2012--June 2013}{Computer Science Teacher}{Caurga Professional Institute}{Chiavenna, Italy}{}{}
+
+\cventry{2009--2011}{Team Developer}{\textsc{Truelite S.r.l.}}{Florence, Italy}{}{
+Developed different applications python based.
+Detailed achievements as Team Developer at R\&D section of Truelite S.r.l.:
+\begin{itemize}
+\item Extensive use of Python language;
+\item Development of customer application based on Python and PyGTK;
+\item Development of web applications using Turbogears framework;
+\item Development of experimental web applications using Python Tornado;
+\item Javascript;
+\item JQuery;
+\item JQueryMobile;
+\item Daily use of SVN and GIT in project;
+\item Development of PHP/MySQL web application;
+\item Apache Web Server administration.
+\end{itemize}
+}
+
+\cventry{2005--2007}{Developer}{\textsc{Holbe and Dialogue Europe S.r.l.}}{Florence, Italy}{}{
+Developed a duplex VoIP application using Qt and C++.\\
+Detailed achievements as Lead Developer at R\&D section of Holbe and Dialogue Europe S.r.l.:
+\begin{itemize}
+\item Extensive use of Qt framework;
+\item Extensive use of C/C++;
+\item Use of CVS (Revision Control System).
+\end{itemize}
+}
+
+
+%------------------------------------------------
+
+%% \subsection{Miscellaneous}
+
+%% \cventry{2008--2009}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2009}{Masters of Science degree Telecomunications engineering 110/110 cum laude}
+\cvitem{2004}{Bachelor of Science degree Telecomunication engineering 106/110}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+\cvitem{Basic}{\textsc{Adobe Lightroom}, \textsc{GIMP}}
+\cvitem{Intermediate}{\LaTeX, \textsc{java}, \textsc{PHP}, \textsc{Postgre SQL}, OpenOffice, Microsoft Windows}
+\cvitem{Advanced}{\textsc{python}, \textsc{html}, \textsc{C++}, \textsc{MySQL}, \textsc{Linux - Debian/Ubuntu flavour}}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%% \section{Communication Skills}
+
+%% \cvitem{2010}{Oral Presentation at the California Business Conference}
+%% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italian}{Mothertongue}{}
+\cvitemwithcomment{English}{Upper-Intermediate}{Conversationally fluent}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Photography}{http://flickr.com/photos/denever}
+\cvlistdoubleitem{Italian Cooking}{Urban Biking}
+\cvlistitem{Swimming}
+\cvlistitem{Co-Founder of Reggio Calabria Linux Users Group}
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+%% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%% \date{\today} % Letter date
+%% \opening{Dear Sir or Madam,} % Opening greeting
+%% \closing{Sincerely yours,} % Closing phrase
+%% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%% \makelettertitle % Print letter title
+
+%% \lipsum[1-3] % Dummy text
+
+%% \makeletterclosing % Print letter signature
+
+%% %----------------------------------------------------------------------------------------
+
+\end{document}
