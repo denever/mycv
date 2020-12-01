@@ -10,7 +10,7 @@ Compile
 
 Install full texlive:
 
-    sudo apt install texlive-full
+    apt-get install texlive texlive-lang-italian texlive-fonts-extra
 
 Then:
 
