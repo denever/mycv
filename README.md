@@ -15,3 +15,4 @@ Install full texlive:
 Then:
 
     latex mycv.tex
+    dvipdf mycv.dvi
